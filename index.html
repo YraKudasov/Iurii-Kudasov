@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iurii Kudasov | Marketing digital y desarrollo web</title>
+    <meta name="description" content="Servicios profesionales de marketing digital, publicidad online y desarrollo web para pymes en Barcelona. Atención en español, inglés y ruso.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        html { scroll-behavior: smooth; }
+        body { background: #0a0a0f; color: #fff; }
+        .card-hover { transition: all .3s ease; }
+        .card-hover:hover { transform: translateY(-4px); border-color: rgba(167,139,250,.4); }
+        .grad { background: linear-gradient(135deg,#a78bfa 0%,#60a5fa 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Nav -->
+    <nav class="fixed top-0 w-full z-50 backdrop-blur-md bg-[#0a0a0f]/80 border-b border-white/5">
+        <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+            <span class="font-semibold tracking-tight">Iurii Kudasov</span>
+            <div class="hidden sm:flex gap-8 text-sm text-white/60">
+                <a href="#perfil" class="hover:text-white transition-colors">Perfil</a>
+                <a href="#servicios" class="hover:text-white transition-colors">Servicios</a>
+                <a href="#trabajos" class="hover:text-white transition-colors">Trabajos</a>
+                <a href="#contacto" class="hover:text-white transition-colors">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="pt-36 pb-20 px-6">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-center gap-10">
+                <img src="images/me.png" alt="Iurii Kudasov" class="w-32 h-32 md:w-40 md:h-40 rounded-2xl object-cover border border-white/10">
+                <div>
+                    <p class="text-white/50 mb-3 text-sm uppercase tracking-widest">Autónomo · Barcelona</p>
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">
+                        <span class="grad">Marketing digital</span><br>y desarrollo web
+                    </h1>
+                    <p class="text-white/60 max-w-xl text-lg">
+                        Ayudo a pequeñas y medianas empresas a crecer online: redes sociales, publicidad, webs y marca. Trato directo y atención en español, inglés y ruso.
+                    </p>
+                    <div class="flex flex-wrap gap-3 mt-7">
+                        <a href="#contacto" class="px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-white/90 transition-all">Contacto</a>
+                        <a href="#servicios" class="px-6 py-3 border border-white/20 rounded-lg hover:bg-white/5 transition-all">Ver servicios</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Perfil -->
+    <section id="perfil" class="py-16 px-6 border-t border-white/5">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-semibold mb-6">Perfil</h2>
+            <p class="text-white/70 max-w-3xl leading-relaxed">
+                Profesional del marketing con <strong>Máster en Communication Management</strong> por la Barcelona School of Management (Universitat Pompeu Fabra) y experiencia en marketing digital, publicidad online y desarrollo web. Trabajo como autónomo desde Barcelona, en modalidad remota y espacio de coworking, atendiendo tanto a clientes locales como internacionales.
+            </p>
+            <div class="flex flex-wrap gap-3 mt-7">
+                <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-white/70">Español</span>
+                <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-white/70">English (C1)</span>
+                <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-white/70">Русский (nativo)</span>
+                <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-sm text-white/70">BSM – UPF</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-16 px-6 border-t border-white/5">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-semibold mb-2">Servicios y tarifas</h2>
+            <p class="text-white/50 mb-8">Tarifas orientativas de entrada; se ajustan al alcance de cada proyecto.</p>
+            <div class="grid md:grid-cols-2 gap-5">
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 card-hover">
+                    <h3 class="text-lg font-semibold mb-1">Gestión de redes sociales (SMM)</h3>
+                    <p class="text-white/60 text-sm mb-3">Creación y programación de contenidos, comunidad y seguimiento.</p>
+                    <span class="grad font-semibold">Desde 400 €/mes</span>
+                </div>
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 card-hover">
+                    <h3 class="text-lg font-semibold mb-1">Publicidad online (Google &amp; Meta Ads)</h3>
+                    <p class="text-white/60 text-sm mb-3">Gestión y optimización de campañas para captar clientes y ventas.</p>
+                    <span class="grad font-semibold">300 €/mes + inversión</span>
+                </div>
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 card-hover">
+                    <h3 class="text-lg font-semibold mb-1">Diseño y desarrollo web</h3>
+                    <p class="text-white/60 text-sm mb-3">Landing pages y webs corporativas, con posicionamiento SEO.</p>
+                    <span class="grad font-semibold">Landing desde 700 € · Web 1.500 – 2.500 €</span>
+                </div>
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 card-hover">
+                    <h3 class="text-lg font-semibold mb-1">Branding y rebranding</h3>
+                    <p class="text-white/60 text-sm mb-3">Identidad visual: logotipo, paleta y manual de marca.</p>
+                    <span class="grad font-semibold">Desde 600 € · Completa 1.200 €</span>
+                </div>
+                <div class="p-6 bg-white/5 rounded-2xl border border-white/10 card-hover md:col-span-2">
+                    <h3 class="text-lg font-semibold mb-1">Consultoría y estrategia de marketing</h3>
+                    <p class="text-white/60 text-sm mb-3">Auditoría, plan de acciones y acompañamiento estratégico.</p>
+                    <span class="grad font-semibold">60 €/h · Estrategia desde 500 €</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trabajos -->
+    <section id="trabajos" class="py-16 px-6 border-t border-white/5">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-semibold mb-8">Trabajos</h2>
+            <div class="grid md:grid-cols-3 gap-5">
+                <div class="bg-white/5 rounded-2xl border border-white/10 overflow-hidden card-hover">
+                    <img src="images/rebranding/bimax_new_logo_eng.png" alt="Rebranding" class="w-full h-44 object-cover bg-white/5">
+                    <div class="p-5">
+                        <h3 class="font-semibold mb-1">Rebranding e identidad</h3>
+                        <p class="text-white/60 text-sm">Nuevo logotipo y sistema visual para BIMAX PRO.</p>
+                    </div>
+                </div>
+                <div class="bg-white/5 rounded-2xl border border-white/10 overflow-hidden card-hover">
+                    <img src="images/convers_optimiz/web_dev.png" alt="Desarrollo web" class="w-full h-44 object-cover bg-white/5">
+                    <div class="p-5">
+                        <h3 class="font-semibold mb-1">Desarrollo web &amp; CRO</h3>
+                        <p class="text-white/60 text-sm">Diseño, mejora de UX y optimización de conversión.</p>
+                    </div>
+                </div>
+                <div class="bg-white/5 rounded-2xl border border-white/10 overflow-hidden card-hover">
+                    <img src="images/audit/scr_1.png" alt="Auditoría" class="w-full h-44 object-cover bg-white/5">
+                    <div class="p-5">
+                        <h3 class="font-semibold mb-1">Auditoría &amp; estrategia</h3>
+                        <p class="text-white/60 text-sm">Benchmark y auditoría de comunicación con plan de acciones.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 px-6 border-t border-white/5">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">Hablemos de tu proyecto</h2>
+            <p class="text-white/60 mb-8 max-w-xl mx-auto">¿Tienes un negocio que quieres hacer crecer online? Escríbeme y lo vemos.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="mailto:kudasovurij10@gmail.com" class="px-6 py-3 bg-white text-black rounded-lg font-medium hover:bg-white/90 transition-all">kudasovurij10@gmail.com</a>
+                <a href="https://www.linkedin.com/in/iurii-kudasov-068265399/" target="_blank" rel="noopener" class="px-6 py-3 border border-white/20 rounded-lg hover:bg-white/5 transition-all">LinkedIn</a>
+            </div>
+            <p class="text-white/40 text-sm mt-10">Barcelona · Marketing digital y desarrollo web</p>
+        </div>
+    </section>
+
+</body>
+</html>
